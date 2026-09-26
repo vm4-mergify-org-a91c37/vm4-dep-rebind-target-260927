@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM4 Depends-On rebinding sink
+    conditions:
+      - title = VM4_DEPENDS_REBIND_TRIGGER_260927
+    actions:
+      merge:
+        method: squash
